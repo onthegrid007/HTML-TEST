@@ -1,40 +1,172 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CMHS Robotics - Highrollers 987</title>
+			
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand|Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2.2.0/dist/flickity.min.css">
+			
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/flickity@2.2.0/dist/flickity.pkgd.min.js"></script>
+		<script type="module" src="js/core.js"></script>
+		
+		<script>
+		console.log(MainNavContent);
+		</script>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	<body>
+		<header>
+			<nav id="MainNav"></nav>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+			<div id="header-carousel" class="header-carousel">
+				<!--
+				<img src="imgs/tesla.png" style="height: 100%; width: 100%; margin-top: -6vw; background-attachment: fixed">
+				<img src="imgs/vex.png" style="height: 100%; width: 100%; margin-top: -8vw; background-attachment: fixed">
+				<img src="imgs/robocamp.png" style="height: 100%; width: 100%; margin-top: -8vw; background-attachment: fixed">
+				-->
+				<div class="carousel-cell" style="background-image: url('imgs/vex.jpg'); height: 86.10vh; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; display: inline;"></div>
+				<div class="carousel-cell" style="background-image: url('imgs/tesla.jpg'); height: 86.10vh; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; display: inline"></div>
+				<div class="carousel-cell" style="background-image: url('imgs/robocamp.jpg'); height: 86.10vh; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+			</div>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
+			<!--
+			<div class="carousel-next"></div>
+			<div class="carousel-prev"></div>
+			-->
+		</header>
 
-<body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+		<main>
+			<div class="main-divider">
+				<h1 class="center">"IT'S NOT ENOUGH!" - Team 987 Highrollers</h1>
+			</div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+			<div class="team-about">
+				<!-- WORK ON LATER -->
+				<!-- <h1>Highrollers</h1> -->
+			</div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
+			<div class="main-content">
+				<div class="upcoming-events">
+					<h1>Upcoming Events</h1>
+					<div class="events-card-carousel">
+						<div class="events-card-container carousel-cell">
+							<div class="events-card" >
+								<div class="events-background" style="background: linear-gradient(rgba(51,51,51,0.6), rgba(51,51,51,0.6)), url('imgs/skills.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+								<div class="events-information">
+									<i class="fas fa-cogs"></i>
+									<h2>Skills USA</h2>
+									<p>4/9/19 - 4/12/19</p>
+									<p>Reno, Nevada</p>
+								</div>
+							</div>
+						</div>
+						<div class="events-card-container carousel-cell">
+							<div class="events-card" >
+								<div class="events-background" style="background: linear-gradient(rgba(51,51,51,0.6), rgba(51,51,51,0.6)), url('imgs/carwash.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+								<div class="events-information">
+									<i class="fas fa-cogs"></i>
+									<h2>Team Carwash</h2>
+									<p>4/13/19 - 8AM-2PM</p>
+									<p>6625 W Centennial Center Blvd, Las Vegas, NV 89128</p>
+								</div>
+							</div>
+						</div>
+						<div class="events-card-container carousel-cell">
+							<div class="events-card" >
+								<div class="events-background" style="background: linear-gradient(rgba(51,51,51,0.6), rgba(51,51,51,0.6)), url('imgs/frcchamp.jpeg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+								<div class="events-information">
+									<i class="fas fa-cogs"></i>
+									<h2>FRC Championship</h2>
+									<p>4/24/19 - 4/27/19</p>
+									<p>Detroit, Michigan</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="recent-posts">
+					<h1>Recent Posts</h1>
+					<div class="recent-card-carousel">
+						<div class="recent-card-container carousel-cell">
+							<div class="recent-card">
+								<div class="recent-background" style="background: linear-gradient(rgba(51,51,51,0.6), rgba(51,51,51,0.6)), url('imgs/vex.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+								<div class="recent-information">
+									<p>2019 News</p>
+									<p>Test Blog</p>
+									<h3>3.. 2.. 1	.. TEST</h3>
+									<a href="#"><span>Read Article</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<div class="sponsers-container">
+				<h1>Thank You Sponsers!</h1>
+				<div class="sponsers-carousel">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/s&s.png" alt="S&S Philpott Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/teslalogo.png" alt="Tesla Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/purvislogo.png" alt="Purvis Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/ifilogo.png" alt="IFI Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/yescologo.png" alt="Yesco Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/afilogo.png" alt="AFI Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/martinlogo.png" alt="Martin Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/baesystemslogo.png" alt="BaeSystems Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/coxlogo.png" alt="Cox Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/iuofoelogo.png" alt="IUofOE Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/labellapizzalogo.png" alt="La Bella Pizza Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/dwyerlogo.png" alt="Dywer Logo">
+					<img class="carousel-cell" data-flickity-lazyload="imgs/limelightlogo.png" alt="Limelight Logo">
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<a href="contact.html"><p>Contact Us</p></a>
+			<p>© 2019 <span>Highrollers</span></p>
+		</footer>
+
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				$('.events-card-carousel').flickity({
+					draggable: true,
+					prevNextButtons: false,
+					pageDots: false,
+					groupCells: true
+				});
+				$('.recent-card-carousel').flickity({
+					freeScroll: false,
+					prevNextButtons: false,
+					pageDots: false,
+					groupCells: '80%',
+					wrapAround: true,
+					cellAlign: 'center'
+				});
+				$('.header-carousel').flickity({
+					freeScroll: false,
+					autoPlay: 5000,
+					prevNextButtons: false,
+					pageDots: false,
+					wrapAround: true,
+					percentPosition: false,
+					pauseAutoPlayOnHover: false
+				});
+				$('.sponsers-carousel').flickity({
+					freeScroll: false,
+					draggable: true,
+					prevNextButtons: false,
+					pageDots: false,
+					wrapAround: true,
+					cellAlign: 'center',
+					autoPlay: 2500,
+					lazyLoad: 2,
+					pauseAutoPlayOnHover: false
+				});
+			});
+		</script>
+	</body>
 </html>
